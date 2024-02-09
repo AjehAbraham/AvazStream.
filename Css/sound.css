@@ -1,0 +1,308 @@
+
+.general-request-overlay-container{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 4;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    top: 0%;
+  width: 100%;
+  z-index: 5;
+  }
+  .container-fluid-option{
+    padding: 1px 1px;
+  }
+  .container-fluid-option button{
+    background-color: rgb(0,120,100);
+    color: white;
+    padding: 8px 8px;
+    font-size: 15px;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 60%;
+  }
+  .container-fluid-option p{
+    padding: 3px 3px;
+    width: 100%;
+    background-color: ;
+  }
+  .container-container-fluid input{
+    padding: 8px 8px;
+    border-radius: 2rem;
+    outline: 0;
+    border: 2px solid #ccc;
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 600px){
+    .container-container-fluid input{
+      width: 60%;
+      font-size: 13px;
+    }
+  }
+  .container-container-fluid p{
+    font-style: italic;
+    padding: 1px 1px;
+    background-color: rgb(0,120,100);
+  
+  }
+  .container-container-fluid  .danger{
+    width: 88%;
+    cursor: pointer;
+  }
+  .container-container-fluid .action{
+    width: 4%;
+    cursor: pointer;
+    background-color: rgb(0,120,100);
+    color: white;
+  
+  }
+  .container-container-fluid button{
+    border: none;
+  }
+  .container-container-fluid #closeLib{
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .container-container-response{
+    padding: 10px 10px;
+    background-color: rgb(0,120,100);
+    border-radius: 2rem;
+    color: white;
+    margin: auto;
+    width: 90%;
+  }
+  .container-container-response input,select{
+    padding: 8px 8px;
+    border-radius: 2rem;
+    outline: 0;
+    border: 2px solid #ccc;
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 18px;
+  }
+  .container-container-response label{
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .container-container-response button{
+    background-color: rgb(0,120,100);
+    color: white;
+    width: 65%;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 8px 8px;
+    font-size: 15px;
+  }
+  @media screen and (min-width: 600px){
+    .container-container-response input,select{
+      width: 60%;
+      font-size: 13px;
+    }
+  }
+  .case-overlay-option{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 4;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    top: 0%;
+  width: 0%;
+  z-index: 1; 
+  }
+  #closeCasebtn{
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    width: 5%;
+  }
+  .manage-container-fluid{
+    margin: auto;
+    display: block;
+  }
+  .manage-container-fluid button{
+    background-color: #ccc;
+    color: black;
+    border-radius: 1px;
+  }
+  .album-overlay-container{
+  margin: auto;
+  }
+  .album-overlay-container p{
+    padding: 2px 2px;
+    background-color: rgb(0,120,100);
+    color: black;
+  }
+  .album-overlay-container button{
+    border: none;
+    display: inline;
+    padding: 2px 2px;
+    border-radius: 1px;
+    color: white;
+    font-size: 13px;
+  }
+  .album-overlay-container .danger{
+    border: none;
+    width: 88%;
+    background-color: rgba(255,255,255,0.7);
+    cursor: pointer;
+    color: black;
+  }
+  .album-overlay-container .action{
+    border: none;
+    width: 4%;
+    cursor: pointer;
+  }
+  .album-overlay-container .upload{
+    padding: 8px 8px;
+    font-size: 15px;
+    color: white;
+    margin: auto;
+    display: block;
+    width: 60%;
+    border: none;
+    border-radius: 2rem;
+  }
+  .album-overlay-container img{
+    width: 50px;
+    height: 30px;
+    float: left;
+  }
+  #close-page{
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 22px;
+  width: 5%;
+  }
+  
+  
+  
+  
+  .option-class-two{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 2;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    top: 0%;
+  width: 0%;
+  z-index: 5;
+  }
+  .option-class-two input{
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding: 8px 8px;
+    font-size: 18px;
+    outline: 2px solid rgb(0,120,100);
+  }
+  .option-class-two button{
+    background-color: rgb(0,120,100);
+    color: white;
+    width: 65%;
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 8px 8px;
+    font-size: 15px;
+  }
+  .option-class-two label{
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  @media screen and (min-width: 600px){
+  .option-class-two input{
+  font-size: 13px;
+  width: 50%;
+  }
+  .option-class-two button{
+  width: 40%;
+  }
+  }
+  #closeTwo{
+  margin: auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  }
+  .option-class-two p{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  }
+  .option-class-two p b{
+    font-weight: bold;
+    color: rgb(0,120,100);
+    font-size: 18px;
+  }
+  .option-class-two p:nth-child(2){
+    color: red;
+    text-align: center;
+    font-size: 13px;
+  }
+  .container-fluid-option .options-container-overlay{
+      z-index: 2;
+      position: fixed;
+     background-color: #ccc; 
+     padding: 5px 14px;
+     text-align: center;
+     top: 9%;
+  
+    }
+    .container-fluid-option .options-container-overlay p{
+      /*padding: -7px;*/
+  
+    }
+    .container-fluid-option .options-container-overlay button{
+      background-color: rgb(0,120,100);
+      color: white;
+      border-radius: 2rem;
+      padding: 10px 10px;
+      border: none;
+      width: 99%;
+  margin-top: -38px;
+  font-size: 13px;
+  text-align: center;
+  overflow: hidden;
+    }
+   .container-fluid-option #closeOption{
+      cursor: pointer;
+      color: red;
+      
+    }

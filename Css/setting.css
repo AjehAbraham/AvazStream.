@@ -1,0 +1,95 @@
+
+.general-request-overlay-container{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  width: 100%;
+  }
+  .setting-overlay-container{
+    margin: auto;
+    display: block;
+  
+  }
+  .setting-overlay-container h1{
+    text-align: center;
+  }
+  .setting-overlay-container h1 i{
+    cursor: pointer;
+  }
+  .setting-overlay-container p{
+    padding: 10px 10px;
+    background-color: rgb(0,120,100);
+    color: white;
+  }
+  .setting-overlay-container p button{
+    background-color: rgb(0,120,100);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .change-password-form{
+  
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  width: 0%;  
+  }
+  .change-password-form input{
+  padding: 8px 8px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  border-radius: 2rem;
+  width: 80%;
+  outline: 0;
+    margin: auto;
+    display: block;
+  }
+  .change-password-form label{
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .change-password-form button{
+    
+  padding: 8px 8px;
+  border: none;
+  font-size: 18px;
+  border-radius: 2rem;
+  width: 60%;
+  outline: 0;
+    margin: auto;
+    display: block;
+    background-color: rgb(0,120,100);
+    color: white;
+    cursor: pointer;
+  }
+  @media screen and (min-width:600px){
+    .change-password-form input{
+      font-size: 13px;
+      width: 50%;
+    }
+    .change-password-form button{
+  width: 40%;
+    }
+  }
+  .change-password-form p{
+    text-align: center;
+  }
+  .change-password-form #closeBox{
+    margin: auto;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+  }

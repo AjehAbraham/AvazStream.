@@ -1,0 +1,253 @@
+.option-class-two{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 2;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    top: 0%;
+  width: 100%;
+  z-index: 5;
+  }
+  .player-container-fluid{
+    margin: auto;
+    display: block;
+  }
+  .player-container-fluid img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+  }
+  .duration-line{
+    width: 100%;
+    margin: auto;
+    display: ;
+  }
+  .duration-length{
+    color: white;
+    margin-bottom: -170px;
+    margin-left: 50px;
+  float: inline-start;
+  }
+  .total-duration{
+    color: white;
+  float: right;
+  margin-top: -17px;
+  margin-right: 50px;
+  
+  }
+  .duration-line input[type=range]{
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 70%;
+  outline: 2px solid white;
+  margin-top: 50px;
+  }
+  @media screen and (min-width:600px){
+    .duration-line input[type=range]{
+      width: 80%;
+    }
+  }
+  input[type=range]::before{
+    background-color: orange;
+    color: orange;
+  }
+  
+  input[type=range]::after{
+    background-color: orange;
+    color: orange;
+  }
+  
+  .option-class-two{
+    background-color: black;
+    overflow-y: scroll;
+    transition: 0.1s;
+    position: fixed;
+    z-index: 2;
+    bottom: 0%;
+    right: 0;
+    left: 0%;
+    top: 0%;
+  width: 0%;
+  z-index: 5;
+  }
+  .option-class-two input{
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 2rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    padding: 8px 8px;
+    font-size: 18px;
+    outline: 2px solid rgb(0,120,100);
+  }
+  .option-class-two button{
+    background-color: rgb(0,120,100);
+    color: white;
+    width: 65%;
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 8px 8px;
+    font-size: 15px;
+  }
+  .option-class-two label{
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  @media screen and (min-width: 600px){
+  .option-class-two input{
+  font-size: 13px;
+  width: 50%;
+  }
+  .option-class-two button{
+  width: 40%;
+  }
+  }
+  #closeTwo{
+  margin: auto;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  }
+  .option-class-two p{
+  text-align: center;
+  font-size: 18px;
+  }
+  
+  
+    .player {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    }
+    
+    .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    }
+    
+    .track-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-image: URL(
+      "Images/logo.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+    }
+    
+    .now-playing {
+    font-size: 1rem;
+    }
+    
+    .track-name {
+    font-size: 35px;
+    }
+    
+    .track-artist {
+    font-size: 24px;
+    }
+    
+    .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+    
+    .playpause-track,
+    .prev-track,
+    .next-track {
+    padding: 25px;
+    opacity: 0.8;
+    
+    transition: opacity .2s;
+    }
+    
+    .playpause-track:hover,
+    .prev-track:hover,
+    .next-track:hover {
+    opacity: 1.0;
+    }
+    
+    .slider_container {
+    width: 75%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .seek_slider, .volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: rgb(0,120,100);
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+    }
+    
+    .seek_slider::-webkit-slider-thumb,
+    .volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    
+    }
+    
+    .seek_slider:hover,
+    .volume_slider:hover {
+    opacity: 1.0;
+    }
+    
+    .seek_slider {
+    width: 60%;
+    }
+    
+    .volume_slider {
+    width: 30%;
+    }
+    
+    .current-time,
+    .total-duration {
+    padding: 10px;
+    }
+    
+    i.fa-volume-down,
+    i.fa-volume-up {
+    padding: 10px;
+    }
+    
+    i.fa-play-circle,
+    i.fa-pause-circle,
+    i.fa-step-forward,
+    i.fa-step-backward {
+    cursor: pointer;
+    }
+    

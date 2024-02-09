@@ -1,0 +1,71 @@
+
+.profile-page-container-overlay{
+    background-color: rgb(0,120,100);
+    overflow-y: scroll;
+    transition: 0.4s;
+    position: fixed;
+    z-index: 2;
+    bottom: 10%;
+    right: 0;
+    left: 30%;
+    top: 10%;
+    border-radius: 2rem;
+  
+  }
+  @media screen and (min-width: 600px){
+  
+    .profile-page-container-overlay{
+      left: 50%;
+    }
+  }
+  .profile-container{
+  margin: auto;
+  text-align: center;
+  }
+  .profile-container input{
+    padding: 8px 8px;
+    border-radius: 2rem;
+    outline: 0;
+    border: 2px solid #ccc;
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 18px;
+  }
+  label{
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .profile-container button{
+    padding: 8px 8px;
+    border-radius: 2rem;
+    outline: 0;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 600px){
+    .profile-container input{
+      font-size: 13px;
+    }
+  }
+  .profile-container img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+  }
+  .profile-container p:nth-child(1){
+    cursor: pointer;
+  }
+  .profile-container p:nth-child(2){
+    font-style: italic;
+  }
